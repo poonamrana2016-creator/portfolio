@@ -54,12 +54,14 @@
     border-radius: 100%;
     margin-left: 30px;
     box-shadow: 3px 3px 30px 3px #011249;
+    animation: profileAnimation 2s linear alternate infinite;
 
 }
 
 .userImg:hover {
     transition: all 2s ease-in-out !important;
-    border-radius: 50px !important;
+    animation: none;
+    border-radius: 30px !important;
     box-shadow: 3px 3px 30px 3px #011249;
 }
 
@@ -68,13 +70,11 @@
     border-radius: 50%;
     width: 300px;
     box-shadow: 3px 3px 3px 3px #1CB5E0 0%;
-    animation: profileAnimation 3s linear alternate infinite;
+    margin-left: 80px;
     box-shadow: 4px 4px 50px 4px #011249;
 }
 
-.about_image:hover {
-    animation: none;
-}
+
 
 @keyframes profileAnimation {
     to {
@@ -128,24 +128,24 @@
     border-radius: 30px !important;
     height: 50px;
     width: 200px;
-    
+
 }
 
 .button_navigate:hover {
     box-shadow: 3px 3px 20px 3px #011249;
     transform: translateY(-10px);
     transition: transform 0.4s ease-in-out;
-   
+
 }
 
-.tools_card:hover{
+.tools_card:hover {
     box-shadow: 3px 3px 20px 3px #011249;
     transform: translateY(-10px);
     transition: transform 0.4s ease-in-out;
 }
 
 .progress_bar {
-    background: linear-gradient(90deg, #515ada 0%, #efd5ff   100%) ;
+    background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%);
 }
 
 .title_heading {
@@ -154,13 +154,15 @@
     font-weight: 500;
     font-style: italic;
 }
-.about_description{
+
+.about_description {
     color: #011249;
 }
-.about_para{
+
+.about_para {
     color: rgb(126, 125, 125);
     font-size: 25px;
-    font-family:  Calibri, sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
 .divider_rule {

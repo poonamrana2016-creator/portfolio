@@ -1,5 +1,5 @@
 import React from 'react'
-import Image2 from '../assets/Images/image2.jpg';
+import Image2 from '../assets/Images/image7.png';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -20,9 +20,9 @@ const About = () => {
                             <ul className='mb-3 about_para '>
                                 <li className=''>Name  :  Poonam Rana</li>
                                 <li className=''>Phone  : 7500997416     </li>
-                                <li className=''>Email : poonamrana@gmail.com      </li>
+                                <li className=''>Email : poonam@gmail.com      </li>
                                 <li className=''>Nationality : Indian       </li>
-                                <li className=''>Graduation : Bachelor of Engineering, CSVTU       </li>
+                                <li className=''>Graduation : Bachelor of Engineering       </li>
                                 <li className=''>Language : English, Hindi, Chhattisgarhi, Marathi     </li>
                                 <li className=''>Address : Uttarakhand     </li>
                             </ul>
