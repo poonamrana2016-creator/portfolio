@@ -26,7 +26,7 @@ const Projects = () => {
               <img src="https://tunis-wordpress-dark.ibthemespro.com/wp-content/uploads/2023/09/project-5.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Contact List Manager</h5>
-                <p className="card-text">A Contact List Manager is a web app to add, update, and delete contacts easily. It is built using HTML, CSS, JavaScript, Bootstrap, ReactJS, Node.js, and MongoDB.</p>
+                <p className="card-text">A Contact List Manager is a web app to add, update, and delete contacts easily.</p>
                 <a href="https://contact-listmanager.netlify.app/"  target="_blank"  className="btn btn-primary">Go somewhere</a>
               </div>
             </div>
